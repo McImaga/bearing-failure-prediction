@@ -301,8 +301,11 @@ with model_performance:
 
     with col2:
         st.caption("Features Mutual Information scores")
-        st.image("Random_mutual_information.png",
-                 caption="Mutual information of features")
+        image_path = os.path.join(BASE_DIR, "Random_Forest_Feature_Importance.png")
+        st.image(image_path, caption="Mutual information of features")
+        
+        
+        
 
     st.divider()
     st.write("The Random Forest Classifier Achieved the following:")
