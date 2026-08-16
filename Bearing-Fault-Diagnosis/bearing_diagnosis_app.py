@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import joblib
@@ -12,9 +13,11 @@ st.set_page_config(
 
 
 # Load trained model and the encoder
-model = joblib.load("random_forest_model.pkl")
-encoder = joblib.load("label_encoder.pkl")
-scaler = joblib.load("scaler.pkl")
+BASE_DIR = os.path.dirname(__file__)
+
+model = joblib.load(os.path.join(BASE_DIR, "random_forest_model.pkl"))
+encoder = joblib.load(os.path.join(BASE_DIR, "label_encoder.pkl"))
+scaler = joblib.load(os.path.join(BASE_DIR, "scaler.pkl"))
 
 
 
