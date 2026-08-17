@@ -1,15 +1,25 @@
+# BearingGuard AI 🚀
+### Bearing Fault Diagnosis using Machine Learning - 94.57% Accuracy
+
+## 🔗 Live Demo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bearingguard.streamlit.app)
+
+
 # ⚙️ Bearing Fault Diagnosis Using Machine Learning
 ### Predictive Maintenance App for Industrial Rotating Machinery
 
 **94.57% Test Accuracy | Random Forest | Streamlit | CWRU Dataset**
 
+
+## 📌 About
+This app predicts bearing faults using vibration data and a Random Forest model...
+
+
 Predict bearing failures *before* they cause costly downtime. 
 
 This intelligent diagnostic system classifies the health state of rolling element bearings using statistical vibration features. Built for engineers, plant managers, and IoT maintenance teams.
 
-## 🚀 Live Demo
-We built a full Streamlit web app. Upload your vibration feature CSV and get instant fault predictions.
-`streamlit run app.py`
 
 ## 🎯 The Problem
 Rolling element bearing failure = unplanned downtime, equipment damage, lost revenue. 
